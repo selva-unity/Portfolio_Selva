@@ -87,7 +87,7 @@ public class AudioManager : MonoBehaviour
         audio.loop = false;
         audio.volume = volume;
         yield return new WaitForSeconds(audio.clip.length);
-        Debug.Log("Audio length");
+        //Debug.Log("Audio length");
         audio.gameObject.SetActive(false);
     }
 

@@ -8,6 +8,7 @@ public class RandomAudioPlayer : MonoBehaviour
     private AudioSource audioSource;
     public int probability;
     public float timeDelay;
+    private float totalTimeDelay;
     private void Awake() 
     {
         audioSource = GetComponent<AudioSource>();
@@ -16,8 +17,8 @@ public class RandomAudioPlayer : MonoBehaviour
 
     private void Start() 
     {
-        timeDelay += audioSource.clip.length;
-        InvokeRepeating(nameof(ProbabilityCheck), timeDelay, timeDelay);
+        totalTimeDelay = timeDelay + audioSource.clip.length;
+        InvokeRepeating(nameof(ProbabilityCheck), totalTimeDelay, totalTimeDelay);
     }
     
     private void ProbabilityCheck()

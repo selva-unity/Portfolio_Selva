@@ -20,6 +20,7 @@ public enum AudioClips{
     None,
     BGMusic,
     AmbientMusic,
-    Landing
+    Landing,
+    WaterSplashLanding
 
 }
