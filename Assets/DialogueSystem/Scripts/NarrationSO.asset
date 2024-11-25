@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428504bedb047b14698a1e5cb15d3e0e, type: 3}
+  m_Name: NarrationSO
+  m_EditorClassIdentifier: 
+  convoScenes:
+  - name: Intro
+    narration: 0
+    dialogues:
+    - responseTime: 0
+      dialogueSpeaker: 0
+      dialogue: In the vast realm of Eldoria, where the sun-drenched plains meet
+        towering mountains shrouded in mist, there lies a kingdom rich in history
+        and valor. For centuries, the House of Valiant has ruled Eldoria with a just
+        hand, guiding its people through times of prosperity and turmoil alike.
+      dialogueAudio: {fileID: 8300000, guid: aec58519704eb004fb445f46f56670ca, type: 3}
+      dialogueType: 0
+      narrationEffect: 0
+      choices: []
+    - responseTime: 0
+      dialogueSpeaker: 0
+      dialogue: Our hero, Aric Valiant, is the latest scion of this noble lineage.
+        Born under the crimson glow of a blood moon, legends foretold that Aric would
+        face challenges unlike any of his forebears. His father, King Alden, known
+        as "The Benevolent", had forged alliances and kept peace within the borders
+        of Eldoria. Yet, beneath the tranquility, whispers of ancient prophecies
+        and hidden threats began to stir.
+      dialogueAudio: {fileID: 8300000, guid: 5b3326bff3b292d46b52bcfb3e0f3f5c, type: 3}
+      dialogueType: 0
+      narrationEffect: 0
+      choices: []
+    - responseTime: 0
+      dialogueSpeaker: 0
+      dialogue: The reign of Aric's ancestors is a tapestry woven with tales of bravery,
+        wisdom, and sacrifice. From the establishment of the kingdom by Aric's great-grandfather,
+        who united the warring tribes of Eldoria, to the unyielding defense of the
+        realm by his grandfather against marauding invaders, each generation left
+        its mark upon the land and its people.
+      dialogueAudio: {fileID: 8300000, guid: f3eae23705d1972448fd7490cb369e29, type: 3}
+      dialogueType: 0
+      narrationEffect: 0
+      choices: []
+    - responseTime: 0
+      dialogueSpeaker: 0
+      dialogue: Now, in the twilight of his youth, Aric ascends the throne after
+        the mysterious disappearance of his father. The kingdom, though outwardly
+        at peace, faces threats from within and beyond its borders. Dark forces,
+        long thought vanquished, resurface in the shadows, threatening the very fabric
+        of Eldoria.
+      dialogueAudio: {fileID: 8300000, guid: 5d5b25875925fb4499c3a7c3813ccacb, type: 3}
+      dialogueType: 0
+      narrationEffect: 0
+      choices: []
+    - responseTime: 0
+      dialogueSpeaker: 0
+      dialogue: "Aric's objective is clear yet daunting. He must unravel the secrets
+        of his father's fate, solidify the kingdom's defenses, and restore the ancient
+        alliances that once safeguarded Eldoria. With his loyal companions\u2014a
+        seasoned knight, a cunning rogue, and a wise sage\u2014Aric embarks on a
+        perilous journey. Along the way, he discovers not only the strength of his
+        lineage but also his own inner resolve and the true meaning of leadership."
+      dialogueAudio: {fileID: 8300000, guid: 73dfe194acaedbe479e23e98c91228d9, type: 3}
+      dialogueType: 0
+      narrationEffect: 0
+      choices: []
+    - responseTime: 0
+      dialogueSpeaker: 0
+      dialogue: The fate of Eldoria now rests in the hands of Aric Valiant. His choices
+        will shape the future of the realm, as he strives to honor his ancestors'
+        legacy and forge a new path forward in a land where danger and destiny are
+        ever entwined.
+      dialogueAudio: {fileID: 8300000, guid: 09bdafb84db384e43bd56c0b554852ac, type: 3}
+      dialogueType: 0
+      narrationEffect: 0
+      choices: []
