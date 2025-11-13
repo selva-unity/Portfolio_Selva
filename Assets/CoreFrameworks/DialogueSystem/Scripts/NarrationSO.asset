@@ -16,7 +16,7 @@ MonoBehaviour:
   - name: Intro
     narration: 0
     dialogues:
-    - responseTime: 0
+    - responseTime: 1
       dialogueSpeaker: 0
       dialogue: In the vast realm of Eldoria, where the sun-drenched plains meet
         towering mountains shrouded in mist, there lies a kingdom rich in history
@@ -24,9 +24,9 @@ MonoBehaviour:
         hand, guiding its people through times of prosperity and turmoil alike.
       dialogueAudio: {fileID: 8300000, guid: aec58519704eb004fb445f46f56670ca, type: 3}
       dialogueType: 0
-      narrationEffect: 0
+      narrationEffect: 1
       choices: []
-    - responseTime: 0
+    - responseTime: 1
       dialogueSpeaker: 0
       dialogue: Our hero, Aric Valiant, is the latest scion of this noble lineage.
         Born under the crimson glow of a blood moon, legends foretold that Aric would
@@ -38,7 +38,7 @@ MonoBehaviour:
       dialogueType: 0
       narrationEffect: 0
       choices: []
-    - responseTime: 0
+    - responseTime: 1
       dialogueSpeaker: 0
       dialogue: The reign of Aric's ancestors is a tapestry woven with tales of bravery,
         wisdom, and sacrifice. From the establishment of the kingdom by Aric's great-grandfather,
@@ -49,7 +49,7 @@ MonoBehaviour:
       dialogueType: 0
       narrationEffect: 0
       choices: []
-    - responseTime: 0
+    - responseTime: 1
       dialogueSpeaker: 0
       dialogue: Now, in the twilight of his youth, Aric ascends the throne after
         the mysterious disappearance of his father. The kingdom, though outwardly
@@ -60,7 +60,7 @@ MonoBehaviour:
       dialogueType: 0
       narrationEffect: 0
       choices: []
-    - responseTime: 0
+    - responseTime: 1
       dialogueSpeaker: 0
       dialogue: "Aric's objective is clear yet daunting. He must unravel the secrets
         of his father's fate, solidify the kingdom's defenses, and restore the ancient
@@ -72,7 +72,7 @@ MonoBehaviour:
       dialogueType: 0
       narrationEffect: 0
       choices: []
-    - responseTime: 0
+    - responseTime: 1
       dialogueSpeaker: 0
       dialogue: The fate of Eldoria now rests in the hands of Aric Valiant. His choices
         will shape the future of the realm, as he strives to honor his ancestors'

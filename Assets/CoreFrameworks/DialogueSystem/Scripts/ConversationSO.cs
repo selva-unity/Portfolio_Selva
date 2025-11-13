@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "ConversationSO", menuName = "ScriptableObject/ConversationSO", order = 1)]
-public class ConversationSO : ScriptableObject 
+public class ConversationSO : ScriptableObject
 {
     public ConvoScene[] convoScenes;
 }
@@ -42,44 +42,20 @@ public class Choices
 public enum SceneNarration
 {
     Inroduction,
-    MissionBegin,
-    Launch,
-    Controls,
-    ControlsFeedback,
-    BallastTankFilling,
-    Depth_50,
-    Depth_200,
-    Depth_1000,
-    Depth_4000,
-    Depth_6000,
-
-    SonarNavigation,
-    ConfirmPosition,
-    PrepareManipulator,
-
-    CollectNodules,
-    DepositNodule,
-    MissionObjectiveComplete,
-
-    MonitorSystem,
-    NearingTheSurface,
-    MissionAccomplished
+    ResponseConversation
 
 }
 public enum DialogueType
 {
     NarrationType,
+    ConversationType,
     ResponseType
 
 }
 
 public enum DialogueSpeaker
 {
-    Narrator,
-    Captain,
-    Pilot_1,
-    Pilot_2,
-    MissionControl
+    Narrator
 }
 
 public enum NarrationEffect
