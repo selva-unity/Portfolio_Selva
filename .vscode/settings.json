@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Portfolio_Selva.sln"
+    "dotnet.defaultSolution": "Portfolio_Selva.slnx"
 }
