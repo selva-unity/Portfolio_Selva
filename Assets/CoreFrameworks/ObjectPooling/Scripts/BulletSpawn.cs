@@ -4,6 +4,7 @@ public class BulletSpawn : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public GameObject grenadePrefab;
+    public Transform spawnPoint;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,17 +17,15 @@ public class BulletSpawn : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            GameObject bullet = ObjectPoolManager.Instance.GetObject(bulletPrefab);
-            bullet.transform.position = transform.position;
-            bullet.transform.rotation = transform.rotation;
-            bullet.SetActive(true);
+            GameObject bullet = ObjectPoolManager.Spawn(bulletPrefab);
+            bullet.transform.position = spawnPoint.position;
+            bullet.transform.rotation = spawnPoint.rotation;
         }
         if (Input.GetKeyDown(KeyCode.G))
         {
-            GameObject grenade = ObjectPoolManager.Instance.GetObject(grenadePrefab);
-            grenade.transform.position = transform.position;
-            grenade.transform.rotation = transform.rotation;
-            grenade.SetActive(true);
+            GameObject grenade = ObjectPoolManager.Spawn(grenadePrefab);
+            grenade.transform.position = spawnPoint.position;
+            grenade.transform.rotation = spawnPoint.rotation;
         }
     }
 }
