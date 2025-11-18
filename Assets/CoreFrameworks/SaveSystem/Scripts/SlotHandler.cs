@@ -5,21 +5,28 @@ public class SlotHandler : MonoBehaviour
 {
     public TextMeshProUGUI slotTxt;
     public TextMeshProUGUI timeTxt;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+
+    private SaveSystem saveSystem;
+    private string saveKey;
+   public void Init(SaveSystem system, string key)
     {
-        
+        saveSystem = system;
+        saveKey = key;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetSlotInfo(string title, string date)
     {
-        
+        if (slotTxt != null) slotTxt.text = title;
+        if (timeTxt != null)  timeTxt.text  = date;
     }
 
-    public void SetSlotInfo(string slotName, string timeStamp)
+    // Hook this up to the Button's OnClick in the inspector
+    public void OnClickSlot()
     {
-        slotTxt.text = slotName;
-        timeTxt.text = timeStamp;
+        if (saveSystem != null && !string.IsNullOrEmpty(saveKey))
+        {
+            saveSystem.LoadSlot(saveKey);
+        }
     }
 }

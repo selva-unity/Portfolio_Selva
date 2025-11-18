@@ -32,10 +32,16 @@ public class PlayerHandler : MonoBehaviour
             if (Vector3.Dot(contact.normal, Vector3.up) > 0.5f)
             {
                 var v = playerRigidbody.linearVelocity;
-                v.y = bounceForce; 
+                v.y = bounceForce;
                 playerRigidbody.linearVelocity = v;
                 return;
             }
         }
+    }
+
+    public void TeleportTo(Vector3 pos)
+    {
+        transform.position = pos;
+        playerRigidbody.linearVelocity = Vector3.zero;
     }
 }
