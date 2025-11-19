@@ -34,3 +34,9 @@ public class SaveController : MonoBehaviour
     }
 
 }
+
+public enum SaveLoadMode
+{
+    Save,
+    Load
+}
