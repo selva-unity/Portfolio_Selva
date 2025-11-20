@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.IO;
+using UnityEngine.UI;
 
 public class SaveSystem : MonoBehaviour
 {
@@ -108,6 +109,7 @@ public class SaveSystem : MonoBehaviour
 
             handler.Init(this, key);
             handler.SetSlotInfo($"Save {key}", dateString);
+            handler.GetComponent<Button>().onClick.AddListener(()=> gameObject.SetActive(false) );
         }
         isSlotsLoaded = true;
         Debug.Log("LoadSlots completed. Total slots loaded: " + saveSlotCount);
