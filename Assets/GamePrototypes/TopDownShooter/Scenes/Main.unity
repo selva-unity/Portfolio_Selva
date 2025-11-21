@@ -1088,8 +1088,8 @@ GameObject:
   - component: {fileID: 1711192245}
   - component: {fileID: 1711192246}
   m_Layer: 0
-  m_Name: Capsule
-  m_TagString: Untagged
+  m_Name: Enemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1323,7 +1323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6630221443399000709, guid: c04d3d022c5d748bc8ff993fee811147, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -6.94
       objectReference: {fileID: 0}
     - target: {fileID: 6630221443399000709, guid: c04d3d022c5d748bc8ff993fee811147, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1331,7 +1331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6630221443399000709, guid: c04d3d022c5d748bc8ff993fee811147, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 6630221443399000709, guid: c04d3d022c5d748bc8ff993fee811147, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1379,7 +1379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739053677863890132, guid: c04d3d022c5d748bc8ff993fee811147, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
