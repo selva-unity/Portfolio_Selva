@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace TopDownShooter
+namespace COCLite
 {
     public class GameManager : MonoBehaviour
     {
