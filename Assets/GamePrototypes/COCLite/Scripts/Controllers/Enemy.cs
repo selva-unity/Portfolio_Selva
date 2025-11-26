@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using COCLite.Controllers;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private EnemyStatsSO enemyStats;

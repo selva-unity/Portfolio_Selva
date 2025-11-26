@@ -1,14 +1,17 @@
 using UnityEngine;
 using CoreFramework.ObjectPooling;
 
-public class BulletHandler : MonoBehaviour
+namespace ObjectPooling
 {
-    void OnCollisionEnter(Collision collision)
+    public class BulletHandler : MonoBehaviour
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        void OnCollisionEnter(Collision collision)
         {
-            // Return the bullet to the pool instead of destroying it
-            ObjectPoolManager.Recycle(gameObject);
+            if (collision.gameObject.CompareTag("Ground"))
+            {
+                // Return the bullet to the pool instead of destroying it
+                ObjectPoolManager.Recycle(gameObject);
+            }
         }
     }
 }

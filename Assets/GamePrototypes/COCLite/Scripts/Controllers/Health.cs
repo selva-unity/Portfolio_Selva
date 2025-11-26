@@ -1,26 +1,28 @@
 using UnityEngine;
-
-public class Health : MonoBehaviour
+namespace COCLite.Controllers
 {
-    public float MaxHealth = 100f;
-    private float _currentHealth;
+    public class Health : MonoBehaviour
+    {
+        public float MaxHealth = 100f;
+        private float _currentHealth;
 
-    public void Init(float maxHealth)
-    {
-        MaxHealth = maxHealth;
-        _currentHealth = MaxHealth;
-    }
-    public void TakeDamage(float amount)
-    {
-        _currentHealth -= amount;
-        if (_currentHealth <= 0f)
+        public void Init(float maxHealth)
         {
-            Die();
+            MaxHealth = maxHealth;
+            _currentHealth = MaxHealth;
         }
-    }
+        public void TakeDamage(float amount)
+        {
+            _currentHealth -= amount;
+            if (_currentHealth <= 0f)
+            {
+                Die();
+            }
+        }
 
-    private void Die()
-    {
-        Destroy(gameObject);
+        private void Die()
+        {
+            Destroy(gameObject);
+        }
     }
 }

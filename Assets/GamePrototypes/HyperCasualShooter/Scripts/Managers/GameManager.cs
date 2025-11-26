@@ -1,6 +1,5 @@
 using UnityEngine;
-
-namespace COCLite.Managers
+namespace HyperCasualShooter.Managers
 {
     public class GameManager : MonoBehaviour
     {
