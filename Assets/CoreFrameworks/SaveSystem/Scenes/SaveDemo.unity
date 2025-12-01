@@ -2813,7 +2813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SaveSystem
   slotPrefab: {fileID: 2558093674413953333, guid: 35745230983164329b36117b9f2e9bf6, type: 3}
   slotsParent: {fileID: 580882427}
-  playerHandler: {fileID: 281629788}
+  playerHandler: {fileID: 0}
   isSlotsLoaded: 0
 --- !u!1 &1340340060
 GameObject:

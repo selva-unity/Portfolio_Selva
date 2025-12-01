@@ -1,8 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace CoreFramework.SaveSystem
-{
 public class PlayerHandler : MonoBehaviour
 {
     public UnityEvent<Vector3> OnPlayerPositionChanged;
@@ -46,5 +44,4 @@ public class PlayerHandler : MonoBehaviour
         transform.position = pos;
         playerRigidbody.linearVelocity = Vector3.zero;
     }
-}
 }

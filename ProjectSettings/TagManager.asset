@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Defense
   - Base
+  - Multiplier
   layers:
   - Default
   - TransparentFX
